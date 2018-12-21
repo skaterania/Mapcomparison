@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MapsComparison</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps">Google Maps</string>
+    <string name="title_activity_google_maps">Map</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#565b5c</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Background">#818080</color>
+    <color name="BtnColor">#e9de4f</color>
+    <color name="SearchBtn">#ffffff</color>
+    <color name="Input">#393939</color>
+
+</resources>
