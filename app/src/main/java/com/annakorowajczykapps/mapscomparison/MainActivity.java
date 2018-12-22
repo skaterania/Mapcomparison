@@ -7,11 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import ArcGISMaps.ArcgisMapsActivity;
 import GoogleMaps.GoogleMapsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button b;
+    private Button a;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        a = (Button)findViewById(R.id.button_arcgis);
+        a.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(MainActivity.this, ArcgisMapsActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
 
     }

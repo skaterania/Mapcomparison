@@ -7,5 +7,10 @@
     <color name="BtnColor">#e9de4f</color>
     <color name="SearchBtn">#ffffff</color>
     <color name="Input">#393939</color>
+    <color name="blue">#7dd3e1</color>
+
+
+    <color name="light">#5ab7c7</color>
+    <color name="blue2">#5ab2ba</color>
 
 </resources>
